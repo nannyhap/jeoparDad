@@ -44,5 +44,5 @@ client.on('interactionCreate', async interaction => {
 client.login(token);
 
 for (command of client.commands) {
-    console.log(command.data.name);
+    console.log(command.data);
 };
