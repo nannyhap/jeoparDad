@@ -13,5 +13,3 @@ for (const file of commandFiles) {
 	const command = require(filePath);
 	commands.push(command.data.toJSON());
 }
-
-console.log(commands);

@@ -42,3 +42,7 @@ client.on('interactionCreate', async interaction => {
 
 // Login to Discord with your client's token
 client.login(token);
+
+for (command of client.commands) {
+    console.log(command.data.name);
+};
